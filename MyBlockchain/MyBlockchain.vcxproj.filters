@@ -1,17 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Arquivos de Origem">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="src">
+      <UniqueIdentifier>{b549eab3-b4c5-43cf-881c-b1ee1381a7a4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Arquivos de Cabeçalho">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="src\misc">
+      <UniqueIdentifier>{e5044767-b10e-44c8-b842-e79bb8de14f8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Arquivos de Recurso">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="src\misc\include">
+      <UniqueIdentifier>{d2cb7d75-2ab7-4b67-8b9e-b80dda43f129}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{a1d61a49-2875-4fac-84c1-81febdc2a26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\include">
+      <UniqueIdentifier>{2bd78244-a57a-45a6-a271-856cc50a61f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\blockchain_structure">
+      <UniqueIdentifier>{cddbe514-6a3b-448b-be53-6c1ba4945d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\blockchain_structure\include">
+      <UniqueIdentifier>{7811656b-50a1-4572-9a5c-9d1d7dc09e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wallet">
+      <UniqueIdentifier>{0b267f95-419f-4ecb-9bef-510f09cb8fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wallet\include">
+      <UniqueIdentifier>{3e06f2cf-1376-4822-bfa6-59de2c98e7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{5b714f1a-6160-456b-8760-889942c3e27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\include">
+      <UniqueIdentifier>{6a4c7105-f4d5-49fa-a4d2-dc41096c237e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>src\blockchain_structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp">
+      <Filter>src\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="Blockchain.cpp">
+      <Filter>src\blockchain_structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Wallet.cpp">
+      <Filter>src\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Transaction.h">
+      <Filter>src\wallet\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>src\misc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>src\test\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>src\blockchain_structure\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Blockchain.h">
+      <Filter>src\blockchain_structure\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Wallet.h">
+      <Filter>src\wallet\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>src\data\include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

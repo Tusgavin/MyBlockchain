@@ -9,6 +9,10 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		DLL-Import Debug|x64 = DLL-Import Debug|x64
+		DLL-Import Debug|x86 = DLL-Import Debug|x86
+		DLL-Import Release|x64 = DLL-Import Release|x64
+		DLL-Import Release|x86 = DLL-Import Release|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
@@ -17,6 +21,14 @@ Global
 		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.Debug|x64.Build.0 = Debug|x64
 		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.Debug|x86.ActiveCfg = Debug|Win32
 		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.Debug|x86.Build.0 = Debug|Win32
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Debug|x64.ActiveCfg = Debug|x64
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Debug|x64.Build.0 = Debug|x64
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Debug|x86.ActiveCfg = Debug|Win32
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Debug|x86.Build.0 = Debug|Win32
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Release|x64.ActiveCfg = Release|x64
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Release|x64.Build.0 = Release|x64
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Release|x86.ActiveCfg = Release|Win32
+		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.DLL-Import Release|x86.Build.0 = Release|Win32
 		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.Release|x64.ActiveCfg = Release|x64
 		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.Release|x64.Build.0 = Release|x64
 		{DCCE9F72-A78C-474A-990C-5AF43901AA64}.Release|x86.ActiveCfg = Release|Win32
